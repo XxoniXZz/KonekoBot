@@ -11,7 +11,7 @@ import json
 import jsonpickle
 
 # Locals
-from src.utils.database.models.currency import Currency
+from src.utils.database.models import Currency
 
 module_logger = logging.getLogger('koneko.CurrencyRepository')
 

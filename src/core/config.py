@@ -27,6 +27,7 @@ class Settings:
             "general",
             "help",
             "level",
+            "rpg",
             # "stats",
             "utility",
         ]

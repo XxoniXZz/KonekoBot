@@ -9,7 +9,7 @@ from datetime import datetime
 from typing import List
 
 # Locals
-from src.utils.database.models.level import Level
+from src.utils.database.models import Level
 
 module_logger = logging.getLogger('koneko.LevelRepository')
 

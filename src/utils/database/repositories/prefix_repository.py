@@ -10,7 +10,7 @@ import configparser
 import logging
 
 # Locals
-from src.utils.database.models.prefix import Prefix
+from src.utils.database.models import Prefix
 
 config = configparser.ConfigParser()
 config.read('config.ini')
